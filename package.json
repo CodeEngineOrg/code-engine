@@ -1,6 +1,6 @@
 {
   "name": "code-engine",
-  "version": "1.0.0-alpha.0",
+  "version": "0.0.0",
   "description": "build tool | code generator | static site builder",
   "keywords": [
     "build-tool",
@@ -33,7 +33,7 @@
     "url": "https://github.com/CodeEngineOrg/code-engine.git"
   },
   "main": "lib/index.js",
-  "types": "lib/index.d.js",
+  "types": "lib/index.d.ts",
   "bin": {
     "code-engine": "bin/code-engine.js"
   },
@@ -49,8 +49,8 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "test": "mocha && npm run lint",
-    "coverage": "nyc mocha",
-    "upgrade": "npm-check -u",
+    "coverage": "nyc node_modules/mocha/bin/mocha",
+    "upgrade": "npm-check -u && npm audit fix",
     "bump": "bump --tag --push --all",
     "release": "npm run upgrade && npm run clean && npm run build && npm test && npm run bump"
   },
@@ -78,7 +78,7 @@
     "version-bump-prompt": "^5.0.3"
   },
   "dependencies": {
-    "@code-engine/lib": "^1.0.0-alpha.0",
-    "@code-engine/cli": "^1.0.0-alpha.0"
+    "@code-engine/lib": "^0.0.1",
+    "@code-engine/cli": "^0.0.1"
   }
 }
