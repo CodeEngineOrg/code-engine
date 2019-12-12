@@ -13,12 +13,12 @@ describe("code-engine package exports", () => {
 
   it("should export the CodeEngine class as the default ESM export", () => {
     expect(defaultExport).to.be.a("function");
-    expect(defaultExport).to.equal(commonJSExport);
+    expect(defaultExport.name).to.equal("CodeEngine");
   });
 
   it("should export the CodeEngine class as a named export", () => {
     expect(namedExport).to.be.a("function");
-    expect(namedExport).to.equal(commonJSExport);
+    expect(namedExport.name).to.equal("CodeEngine");
   });
 
   it("should not export anything else", () => {
