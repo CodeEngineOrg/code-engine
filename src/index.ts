@@ -1,6 +1,8 @@
 import { CodeEngine } from "@code-engine/lib";
 
-export * from "@code-engine/lib";
+export { CodeEngine };
+export { Generator, WatchConfig } from "@code-engine/cli";
+export * from "@code-engine/types";
 
 // Export `CodeEngine` as the default export
 // tslint:disable: no-default-export
