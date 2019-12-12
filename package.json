@@ -58,9 +58,9 @@
     "node": ">=8"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.1",
+    "@types/chai": "^4.2.7",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.7.4",
+    "@types/node": "^12.12.17",
     "chai": "^4.2.0",
     "chai-exec": "^1.1.2",
     "coveralls": "^3.0.4",
@@ -78,7 +78,8 @@
     "version-bump-prompt": "^5.0.3"
   },
   "dependencies": {
-    "@code-engine/lib": "^0.0.1",
-    "@code-engine/cli": "^0.0.1"
+    "@code-engine/cli": "0.0.5",
+    "@code-engine/lib": "0.0.13",
+    "@code-engine/types": "0.0.8"
   }
 }
