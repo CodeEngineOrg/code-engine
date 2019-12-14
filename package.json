@@ -1,6 +1,6 @@
 {
   "name": "code-engine",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "build tool | code generator | static site builder",
   "keywords": [
     "build-tool",
@@ -78,7 +78,7 @@
     "version-bump-prompt": "^5.0.3"
   },
   "dependencies": {
-    "@code-engine/cli": "0.0.5",
+    "@code-engine/cli": "0.0.6",
     "@code-engine/lib": "0.0.13",
     "@code-engine/types": "0.0.8"
   }
