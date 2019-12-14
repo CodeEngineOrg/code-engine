@@ -1,3 +1,16 @@
+[![CodeEngine](https://engine.codes/img/logos/wide-800px.png)](https://engine.codes)
+
+[![Cross-Platform Compatibility](https://engine.codes/img/badges/os-badges.svg)](https://travis-ci.com/CodeEngineOrg/code-engine)
+[![Build Status](https://api.travis-ci.com/CodeEngineOrg/code-engine.svg?branch=master)](https://travis-ci.com/CodeEngineOrg/code-engine)
+
+[![Coverage Status](https://coveralls.io/repos/github/CodeEngineOrg/code-engine/badge.svg?branch=master)](https://coveralls.io/github/CodeEngineOrg/code-engine)
+[![Dependencies](https://david-dm.org/CodeEngineOrg/code-engine.svg)](https://david-dm.org/CodeEngineOrg/code-engine)
+
+[![npm](https://img.shields.io/npm/v/code-engine.svg)](https://www.npmjs.com/package/code-engine)
+[![License](https://img.shields.io/npm/l/code-engine.svg)](LICENSE)
+
+
+
 Features
 -------------------------------
 Code Engine is a highly customizable, plugin-based code generator. It can be used as a build tool, a static site builder, a file processor, or any workflow that entails reading input data, performing a series of transformations on it, and outputing the transformed data.
