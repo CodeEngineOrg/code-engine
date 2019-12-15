@@ -78,7 +78,7 @@
     "version-bump-prompt": "^5.0.3"
   },
   "dependencies": {
-    "@code-engine/cli": "0.0.6",
+    "@code-engine/cli": "0.0.8",
     "@code-engine/lib": "0.0.13",
     "@code-engine/types": "0.0.8"
   }
