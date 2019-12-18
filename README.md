@@ -11,6 +11,12 @@
 
 
 
+🚧 Caution ‍️🚧
+-------------------------------
+CodeEngine is still being developed and should be considered an **early beta** at this point. It may have bugs and/or performance issues, and we may introduce breaking changes as we solidify the API and functionality.
+
+
+
 Features
 -------------------------------
 Code Engine is a highly customizable, plugin-based code generator. It can be used as a build tool, a static site builder, a file processor, or any workflow that entails reading input data, performing a series of transformations on it, and outputing the transformed data.
@@ -29,12 +35,6 @@ Code Engine is a highly customizable, plugin-based code generator. It can be use
 
 - 🧩 **Functional**<br>
   CodeEngine plugins are pure functions that can easily be chained together in different ways to accomplish amazing things.
-
-
-
-🚧 Caution ‍️🚧
--------------------------------
-CodeEngine is still being developed and should be considered an **early beta** at this point. It may have bugs and/or performance issues, and we may introduce breaking changes as we solidify the API and functionality.
 
 
 
