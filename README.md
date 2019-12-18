@@ -1,4 +1,4 @@
-[![CodeEngine](https://engine.codes/img/logos/wide-800px.png)](https://engine.codes)
+[![CodeEngine](https://engine.codes/img/logos/banner.svg)](https://engine.codes)
 
 [![Cross-Platform Compatibility](https://engine.codes/img/badges/os-badges.svg)](https://travis-ci.com/CodeEngineOrg/code-engine)
 [![Build Status](https://api.travis-ci.com/CodeEngineOrg/code-engine.svg?branch=master)](https://travis-ci.com/CodeEngineOrg/code-engine)
