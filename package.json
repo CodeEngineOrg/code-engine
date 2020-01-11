@@ -61,26 +61,26 @@
   "devDependencies": {
     "@types/chai": "^4.2.7",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.12.17",
+    "@types/node": "^13.1.6",
     "chai": "^4.2.0",
     "chai-exec": "^1.1.2",
     "coveralls": "^3.0.4",
-    "eslint": "^6.3.0",
+    "eslint": "^6.8.0",
     "eslint-config-modular": "^7.0.0",
-    "mocha": "^6.1.4",
+    "mocha": "^7.0.0",
     "npm-check": "^5.9.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "shx": "^0.3.2",
     "source-map-support": "^0.5.12",
     "tslint": "^5.17.0",
     "tslint-modular": "^1.4.1",
-    "typescript": "^3.6.2",
+    "typescript": "^3.7.4",
     "typescript-tslint-plugin": "^0.5.0",
-    "version-bump-prompt": "^5.0.3"
+    "version-bump-prompt": "^5.0.7"
   },
   "dependencies": {
-    "@code-engine/cli": "0.0.8",
-    "@code-engine/lib": "0.0.13",
-    "@code-engine/types": "0.0.8"
+    "@code-engine/cli": "0.0.10",
+    "@code-engine/lib": "0.0.16",
+    "@code-engine/types": "0.0.12"
   }
 }
