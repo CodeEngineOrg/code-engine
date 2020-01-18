@@ -44,7 +44,7 @@ describe("CodeEngine() API", () => {
 
     let engine = new CodeEngine();
     await engine.use(plugin1, plugin2, plugin3);
-    let summary = await engine.build();
+    let summary = await engine.run();
 
     expect(summary.input.fileCount).to.equal(3);
     expect(summary.input.fileSize).to.equal(41);
