@@ -1,7 +1,7 @@
 [![CodeEngine](https://engine.codes/img/logos/banner.svg)](https://engine.codes)
 
-[![Cross-Platform Compatibility](https://engine.codes/img/badges/os-badges.svg)](https://travis-ci.com/CodeEngineOrg/code-engine)
-[![Build Status](https://api.travis-ci.com/CodeEngineOrg/code-engine.svg?branch=master)](https://travis-ci.com/CodeEngineOrg/code-engine)
+[![Cross-Platform Compatibility](https://engine.codes/img/badges/os-badges.svg)](https://github.com/CodeEngineOrg/code-engine/blob/master/.github/workflows/CI-CD.yaml)
+[![Build Status](https://github.com/CodeEngineOrg/code-engine/workflows/CI-CD/badge.svg)](https://github.com/CodeEngineOrg/code-engine/blob/master/.github/workflows/CI-CD.yaml)
 
 [![Coverage Status](https://coveralls.io/repos/github/CodeEngineOrg/code-engine/badge.svg?branch=master)](https://coveralls.io/github/CodeEngineOrg/code-engine)
 [![Dependencies](https://david-dm.org/CodeEngineOrg/code-engine.svg)](https://david-dm.org/CodeEngineOrg/code-engine)
