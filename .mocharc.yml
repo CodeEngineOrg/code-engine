@@ -12,3 +12,4 @@ spec:
 bail: true
 recursive: true
 require: source-map-support/register
+retries: 30 # Due to sporadic timing failures on Windows
